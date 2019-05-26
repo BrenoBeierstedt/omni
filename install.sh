@@ -8,10 +8,10 @@ cd ..
 
 
 printf "\n\n##### Cloning web front..."
-git clone git@bitbucket.org:plathanus/cashopera-adm.git
+git clone git@github.com:BrenoBeierstedt/omni-web.git
 
 printf "\n\n##### Cloning backend..."
-git clone git@bitbucket.org:plathanus/cashopera-api.git
+git clone git@github.com:BrenoBeierstedt/omni-api.git
 
 printf "\n\n##### Copying composer..."
 cp omni-platform/docker-compose.yml.sample docker-compose.yml
